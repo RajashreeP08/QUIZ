@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://i.pinimg.com/originals/21/8a/24/218a24c8599306dc86e0855b644eb358.jpg" alt="logo">
+                </span>
+                <div class="text header-text">
+                    <span class="name">QUIZZO</span>
+                   
+                </div>
+            </div>
+            <i class='bx bxs-right-arrow toggle'></i>
+
+        </header>
+
+        <div class="menu-bar">
+            <li class="nav-links">
+                <a href="#MATHEMATICS">
+                    <span class="text nav-text" type="button">Mathematics</span>
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#PHYSICS">
+                    <span class="text nav-text" type="button">physics</span>
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#CHEMISTRY">
+                    <span class="text nav-text" type="button">chemistry</span>
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#COMPUTER">
+                    <span class="text nav-text" type="button">computer programming</span>
+                </a>
+            </li>
+
+        </div>
+
+    </nav>
+    <div class="content">
+        <section id="MATHEMATICS">
+            <br><br><br>
+            <h1 style="text-align: center;">Quiz Instructions</h1>
+                
+                <ul style="text-align: center;">
+                    <pre><h3>Welcome to the quiz!</h3><br><i></i> Please read the instructions carefully before starting the quiz.<i></i></pre><hr>
+                    <br>
+                    <li>You have 60 seconds to answer each question.</li>
+                    <li>There are 5 questions in this quiz, selected randomly.</li>
+                    <li>Your score will be displayed at the end of the quiz.</li>
+                    <li>Click below to start the quiz.</li>
+                </ul>
+                <br><br><br>    
+            <div id="math1" style="cursor: pointer;"><h3>ALGEBRA</h3></div>
+            <script>
+                const algebra=document.getElementById('math1')  ;
+algebra.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="math1.html";
+})
+
+            </script>
+            <div id="math2" style="cursor: pointer;"><h3>GEOMETRY</h3></div>
+            <script>
+                const GEOMETRY=document.getElementById('math2')  ;
+GEOMETRY.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="math2.html ";
+}) </script>
+        </section>
+        <section id="PHYSICS">
+            <br><br><br>
+            <h1 style="text-align: center;">Quiz Instructions</h1>
+                
+                <ul style="text-align: center;">
+                    <pre><h3>Welcome to the quiz!</h3><br><i></i> Please read the instructions carefully before starting the quiz.<i></i></pre><hr>
+                    <br>
+                    <li>You have 60 seconds to answer each question.</li>
+                    <li>There are 5 questions in this quiz, selected randomly.</li>
+                    <li>Your score will be displayed at the end of the quiz.</li>
+                    <li>Click below to start the quiz.</li>
+                </ul>
+                <br><br><br>
+            <div id="phy1" style="cursor: pointer;"><h3><br>MECHANICS</h3></div>
+            <script>
+                const MECHANICS=document.getElementById('phy1')  ;
+MECHANICS.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="phy1.html";
+}) </script>
+            <div id="phy2" style="cursor: pointer;"><h3>MODERN<BR>PHYSICS</h3></div>
+                <script>
+                    const modernPhy =document.getElementById('phy2')  ;
+    modernPhy.addEventListener('click',function(e){
+        e.preventDefault();
+        window.location.href="phy2.htm";
+    }) </script>
+
+
+        </section>
+        <section id="CHEMISTRY">
+            <br><br><br>
+            <h1 style="text-align: center;">Quiz Instructions</h1>
+                
+                <ul style="text-align: center;">
+                    <pre><h3>Welcome to the quiz!</h3><br><i></i> Please read the instructions carefully before starting the quiz.<i></i></pre><hr>
+                    <br>
+                    <li>You have 60 seconds to answer each question.</li>
+                    <li>There are 5 questions in this quiz, selected randomly.</li>
+                    <li>Your score will be displayed at the end of the quiz.</li>
+                    <li>Click below to start the quiz.</li>
+                </ul>
+                <br><br><br>
+            <div id="chem1" style="cursor: pointer;"><h3>ORGANIC</h3></div>
+            <script>
+                const organic =document.getElementById('chem1')  ;
+organic.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="chem1.html";
+}) </script>
+            <div id="chem2" style="cursor: pointer;"><h3>INORGANIC</h3></div>
+            <script>
+                const inorganic =document.getElementById('chem2')  ;
+inorganic.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="chem2.html";
+}) </script>
+        </section>
+        <section id="COMPUTER">
+            <br><br><br>
+            <h1 style="text-align: center;">Quiz Instructions</h1>
+                
+                <ul style="text-align: center;">
+                    <pre><h3>Welcome to the quiz!</h3><br><i></i> Please read the instructions carefully before starting the quiz.<i></i></pre><hr>
+                    <br>
+                    <li>You have 60 seconds to answer each question.</li>
+                    <li>There are 5 questions in this quiz, selected randomly.</li>
+                    <li>Your score will be displayed at the end of the quiz.</li>
+                    <li>Click below to start the quiz.</li>
+                </ul>
+                <br><br><br>
+            <div id="cp1" style="cursor: pointer;"><h3>PYTHON</h3></div>
+            <script>
+                const python =document.getElementById('cp1')  ;
+python.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="cp1.html";
+}) </script>
+            <div id="cp2"style="cursor: pointer;"><h3>JAVA</h3></div>
+            <script>
+                const java =document.getElementById('cp2')  ;
+java.addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.href="cp2.html";
+}) </script>
+        </section>
+
+
+    </div>
+
+<script src="js\quiz.js"></script>    
+</body>
+</html>

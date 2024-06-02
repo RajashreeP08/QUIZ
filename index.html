@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+       <div id="div1">
+        <img  src="https://i.pinimg.com/originals/21/8a/24/218a24c8599306dc86e0855b644eb358.jpg" height="50px"
+        alt="logo"> </img>
+        QUIZZO
+       </div>
+    </header>
+    <main>
+        <div id="div2"><br><br>
+            <form>
+            <br>
+            <br>
+            <br>
+            <header><h2>Welcome to QUIZZO!!</h2></header>
+            <br>
+            <br>
+            <input  id="name" placeholder=" Enter your name" style="border-radius: 8px;" style="text-align: center;"><br><br>
+            <input id="102" placeholder=" Enter your Email address"style="border-radius: 8px;" style="text-align: center;"><br><br>
+            <button type="submit"> login</button><br><br>
+            </form>
+        </div>
+    </main>  
+    <script >
+        const form = document.getElementById('div2');
+        const name = document.getElementById('name');
+        const email= document.getElementById('102');
+
+        form.addEventListener('submit',function(e){
+            e.preventDefault();
+            // const name=name.value;
+            // localStorage.setItem('name',name);
+            window.location.href="hello.html";
+        })
+    </script> 
+</body>
+</html>

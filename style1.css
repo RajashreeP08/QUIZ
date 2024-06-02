@@ -1,0 +1,78 @@
+body{
+    background-color: #E0AED0;
+    background-image: url(dropback2.jpg);
+    background-size: cover;
+}
+
+#div1{
+    
+    top: 0%;
+    height: 75px;
+    width: 100%;
+    background-color: #0a4093;
+    color: #f9f9e0;
+    font-family: cursive;
+    font-size: large;
+    margin-right: 0%;
+    z-index: 1;
+}
+
+#preference{
+    position: relative;
+    top:120px;
+    left:32%;
+    background-color: #22d9f6;
+    width:fit-content;
+    color:#34035d ;
+    font-family:cursive ;
+    text-align: center;
+    background-image: url(dropback2.jpg);
+    background-size: cover;
+
+
+    
+}
+#divdd{
+    
+    border: radius 0.25rem; ;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    color: #FFE5E5;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#dropbtn{
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+#dropdown{
+    padding: 10px;
+    font-size: 16px;
+    margin-right:10px ;
+    border-radius: 20px;
+    border: solid;
+    background-color: #0b3a81;
+    color: #f9f9e0;
+    margin-bottom: 20px;
+}
+button{
+    margin-top:50px ;
+    height: 40px;
+    width: 40px;
+    font-size: 6px;
+    margin-right:10px ;
+    border-radius: 50%;
+    background-color:#f9f9e0;
+
+}
+
+
+a input{
+    
+    font-size: 16px;
+    margin-right:10px ;
+    border-radius: 50% solid;  
+}

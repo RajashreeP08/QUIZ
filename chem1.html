@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\phy.css">
+     
+</head>
+<body>
+  <div class="container">
+      <div class="phyapp">
+          <div class="quiz">
+              <h1>Quiz</h1>
+              <div id="question"></div>
+              <div id="answer-buttons"></div>
+              <button id="next-btn">Next</button>
+              <div class="time-div">
+                  <span class="time-left">Time Left: 60s</span>
+              </div>
+          </div>
+      </div>
+      <div class="sidebar">
+          <h2>Questions by Difficulty</h2>
+          <div class="tab">
+              <button class="tablinks" onclick="openTab(event, 'Easy')">Easy</button>
+              <button class="tablinks" onclick="openTab(event, 'Moderate')">Moderate</button>
+              <button class="tablinks" onclick="openTab(event, 'Hard')">Hard</button>
+          </div>
+          <div id="Easy" class="tabcontent">
+              <h3>Easy</h3>
+              <ul id="easy-questions"></ul>
+          </div>
+          <div id="Moderate" class="tabcontent">
+              <h3>Moderate</h3>
+              <ul id="moderate-questions"></ul>
+          </div>
+          <div id="Hard" class="tabcontent">
+              <h3>Hard</h3>
+              <ul id="Hard-questions"></ul>
+          </div>
+      </div>
+  </div>
+<script src="js\chem1.JS" ></script>  
+</body>
+</html>
